@@ -160,3 +160,28 @@ a:focus,
 a:hover {
   color: #006e12;
 }
+
+.noBullet {
+  list-style-type: none;
+}
+
+@media (max-width: 450px) {
+  .noBullet {
+    padding: 0;
+  }
+  .noBullet .col {
+    max-width: 25%;
+    font-size: 14px;
+  }
+}
+
+/* .noBullet li {
+  padding: 0 15px;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+} */
