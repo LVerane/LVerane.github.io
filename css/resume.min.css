@@ -12,12 +12,14 @@ body {
   background-image: url("https://cdn.wallpapersafari.com/28/19/obxBz5.png");
   background-attachment: fixed;
 }
+
 @media (min-width: 992px) {
   body {
     padding-top: 0;
     padding-left: 17rem;
   }
 }
+
 h1,
 h2,
 h3,
@@ -31,20 +33,25 @@ h6 {
   text-transform: uppercase;
   color: #343a40;
 }
+
 h1 {
   font-size: 6rem;
   line-height: 5.5rem;
 }
+
 h2 {
   font-size: 3.5rem;
 }
+
 h3 {
   font-size: 2rem;
 }
+
 p.lead {
   font-size: 1.15rem;
   font-weight: 400;
 }
+
 .subheading {
   text-transform: uppercase;
   font-weight: 500;
@@ -53,6 +60,7 @@ p.lead {
     "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 1.5rem;
 }
+
 .social-icons a {
   display: inline-block;
   height: 3.5rem;
@@ -65,26 +73,33 @@ p.lead {
   line-height: 3.5rem;
   margin-right: 1rem;
 }
+
 .social-icons a:last-child {
   margin-right: 0;
 }
+
 .social-icons a:hover {
   background-color: #006e12;
 }
+
 .dev-icons {
   font-size: 3rem;
 }
+
 .dev-icons .list-inline-item i:hover {
   color: #bd5d38;
 }
+
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
   text-transform: uppercase;
 }
+
 #sideNav .navbar-toggler:focus {
   outline-color: #d48a6e;
 }
+
 @media (min-width: 992px) {
   #sideNav {
     text-align: center;
@@ -96,16 +111,19 @@ p.lead {
     width: 17rem;
     height: 100vh;
   }
+
   #sideNav .navbar-brand {
     display: flex;
     margin: auto auto 0;
     padding: 0.5rem;
   }
+
   #sideNav .navbar-brand .img-profile {
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
   }
+
   #sideNav .navbar-collapse {
     display: flex;
     align-items: flex-start;
@@ -113,48 +131,60 @@ p.lead {
     width: 100%;
     margin-bottom: auto;
   }
+
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
     width: 100%;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item {
     display: block;
   }
+
   #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
     display: block;
   }
 }
+
 section.resume-section {
   padding-top: 5rem !important;
   padding-bottom: 5rem !important;
   max-width: 75rem;
 }
+
 section.resume-section .resume-item .resume-date {
   min-width: none;
 }
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
   }
+
   section.resume-section .resume-item .resume-date {
     min-width: 18rem;
   }
 }
+
 @media (min-width: 992px) {
   section.resume-section {
     padding-top: 3rem !important;
     padding-bottom: 3rem !important;
   }
 }
+
 .bg-primary {
   background-color: #006e12 !important;
 }
+
 .text-primary {
   color: #006e12 !important;
 }
+
 a {
   color: #006e12;
 }
+
 a:active,
 a:focus,
 a:hover {
@@ -169,19 +199,24 @@ a:hover {
   .noBullet {
     padding: 0;
   }
+
   .noBullet .col {
     max-width: 25%;
     font-size: 14px;
   }
 }
 
-/* .noBullet li {
-  padding: 0 15px;
+.resume-date {
+  max-width: 80%;
 }
 
-.flexBox {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-} */
+@media (min-width: 768px) {
+  .resume-content {
+    max-width: 60%;
+    margin-right: 10px;
+  }
+
+  .resume-date {
+    max-width: 40%;
+  }
+}
